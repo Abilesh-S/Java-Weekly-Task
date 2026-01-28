@@ -3,33 +3,33 @@ package com.kovanlabs.intern.week1.task.matrix;
 public class SpiralMatrix {
 
     void spiralnxn(int n){
-        int r = 0 , c = 0 ,count = 0;
-        boolean[][] visited = new boolean[n][n];
-        int[][] matrix = new int[n][n];
-        int[] dr = {0 , 1 , 0 , -1 };
-        int[] dc = {1 , 0 , -1 , 0 };
-        int idx = 0;
+        int row = 0 , col = 0 ;
+        boolean[][] visitedMatrix = new boolean[n][n];
+        int[][] matrixToBeAdded = new int[n][n];
+        int[] directionrow = {0 , 1 , 0 , -1 };
+        int[] directioncol = {1 , 0 , -1 , 0 };
+        int indexDirection = 0;
         for(int i = 0 ; i < n*n ; i++) {
-            matrix[r][c] = i + 1;
-            visited[r][c] = true;
-            int newr = r + dr[idx];
-            int newc = c + dc[idx];
-            if (newr >= 0 && newr < n && newc >= 0 && newc < n && !visited[newr][newc]) {
-                r = newr;
-                c = newc;
+            matrixToBeAdded[row][col] = i + 1;
+            visitedMatrix[row][col] = true;
+            int newrow = row + directionrow[indexDirection];
+            int newcol = col + directioncol[indexDirection];
+            if (newrow >= 0 && newrow < n && newcol >= 0 && newcol < n && !visitedMatrix[newrow][newcol]) {
+                row = newrow;
+                col = newcol;
             } else {
-                idx = (idx + 1) % 4;
-                r += dr[idx];
-                c += dc[idx];
+                indexDirection = (indexDirection + 1) % 4;
+                row += directionrow[indexDirection];
+                col += directioncol[indexDirection];
             }
         }
-        new SpiralMatrix().display(matrix , n);
+        new SpiralMatrix().display(matrixToBeAdded , n);
     }
 
-    void display(int[][] matrix , int n){
+    void display(int[][] matrixToBeAdded , int n){
         for(int i = 0 ; i < n ; i++){
             for(int j = 0 ; j < n; j++){
-                System.out.print(matrix[i][j]+" ");
+                System.out.print(matrixToBeAdded[i][j]+" ");
             }
             System.out.println();
         }
