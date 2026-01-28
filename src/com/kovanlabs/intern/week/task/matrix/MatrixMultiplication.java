@@ -1,4 +1,4 @@
-package com.kovanlabs.intern.week1.task.matrix;
+package com.kovanlabs.intern.week.task.matrix;
 
 public class MatrixMultiplication {
 
@@ -35,7 +35,7 @@ public class MatrixMultiplication {
             m.matrixMultiply(matrix1, matrix2);
         }
         else{
-            System.out.println("Operation Cannote be Processed");
+            System.out.println("Operation Cannot be Processed");
         }
     }
 }
