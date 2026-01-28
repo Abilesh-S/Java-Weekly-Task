@@ -1,7 +1,7 @@
-package com.kovanlabs.intern.week1.task;
+package com.kovanlabs.intern.week1.task.string;
 
 public class StringComparison {
-    void comparisonAndHashCode(){
+    public void comparisonAndHashCode(){
         String s1 , s2;
         String s3 = new String("Hello");
         s1 = "Hello";
