@@ -1,4 +1,5 @@
-package com.kovanlabs.intern.week1.task.pattern;
+package com.kovanlabs.intern.week.task.pattern;
+import java.util.Scanner;
 
 public class DiamondPattern {
     public void upwardPyramid(int a){
@@ -24,7 +25,11 @@ public class DiamondPattern {
         }
     }
     public static void main(String[] args) {
-        new DiamondPattern().upwardPyramid(7);
-        new DiamondPattern().downwardPyramid(7);
+        int n ;
+        Scanner sc = new Scanner(System.in);
+        System.out.print("Enter Diamond size");
+        n =sc.nextInt();
+        new DiamondPattern().upwardPyramid(n);
+        new DiamondPattern().downwardPyramid(n);
     }
 }
