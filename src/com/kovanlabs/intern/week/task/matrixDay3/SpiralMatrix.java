@@ -1,4 +1,4 @@
-package com.kovanlabs.intern.week1.task.matrix;
+package com.kovanlabs.intern.week.task.matrixDay3;
 
 public class SpiralMatrix {
 

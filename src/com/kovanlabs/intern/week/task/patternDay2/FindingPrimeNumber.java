@@ -1,9 +1,9 @@
-package com.kovanlabs.intern.week.task.pattern;
+package com.kovanlabs.intern.week.task.patternDay2;
 
 import java.util.Arrays;
 
 public class FindingPrimeNumber {
-//    To create a boolean array only true values stored for prime number index
+//  To create a boolean array only true values stored for prime number index
     private boolean[] primeBooleanArray(int n){
         boolean[] prime = new boolean[n+1];
         Arrays.fill(prime,true);
