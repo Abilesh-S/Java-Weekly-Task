@@ -1,4 +1,4 @@
-package com.kovanlabs.intern.week.task.pattern;
+package com.kovanlabs.intern.week.task.patternDay2;
 
 import java.util.Arrays;
 
