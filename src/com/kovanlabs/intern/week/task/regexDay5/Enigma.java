@@ -1,7 +1,7 @@
 package com.kovanlabs.intern.week.task.regexDay5;
 
 public class Enigma {
-    private static int key = 7;
+    private static int key = 8;
     private String xorOperation(String s , int key){
         char[] xorArray = new char[s.length()];
         for(int i = 0; i < s.length(); i++){

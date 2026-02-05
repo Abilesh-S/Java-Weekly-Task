@@ -21,7 +21,7 @@ public class PassByValueandReference {
         System.out.println("After passing value "+b);
 
         Reference r = new Reference();
-        System.out.println("Before passing reference "+b);
+        System.out.println("Before passing reference "+r.b);
         passByReference(r);
         System.out.println("After passing reference "+r.b);
     }
