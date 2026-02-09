@@ -15,7 +15,7 @@ abstract class Characther {
 
 class Warrior extends Characther {
     Warrior() {
-        super(120, 15); // High health, medium damage
+        super(120, 15);
     }
     @Override
     void attack(Characther opponent) {
@@ -25,10 +25,10 @@ class Warrior extends Characther {
     }
 }
 
-/* ================= MAGE ================= */
+
 class Mage extends Characther {
     Mage() {
-        super(80, 25); // Low health, high damage
+        super(80, 25);
     }
     @Override
     void attack(Characther opponent) {
@@ -44,7 +44,7 @@ class Rogue extends Characther {
     }
     @Override
     void attack(Characther opponent) {
-        if (Math.random() < 0.3) { // 30% dodge chance
+        if (Math.random() < 0.3) {
             System.out.println("Rogue dodged the attack!");
             return;
         }
@@ -59,7 +59,7 @@ public class BattleArena {
     public static void main(String[] args) {
 
         Characther player1 = new Warrior();
-        Characther player2 = new Mage(); // change to Rogue to test
+        Characther player2 = new Mage();
 
         System.out.println("Battle Begins️\n");
 
@@ -71,7 +71,7 @@ public class BattleArena {
             System.out.println("Player2 Health: " + player2.health);
             System.out.println("----------------------------------");
         }
-        System.out.println("\n🏁 Battle Over!");
+        System.out.println("\n Battle Over!");
         if (player1.isAlive()) {
             System.out.println("Player 1 Wins!");
         }
