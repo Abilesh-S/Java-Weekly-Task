@@ -4,19 +4,15 @@ import java.util.List;
 import java.util.Stack;
 
 class MyStack<T>{
-    final List<T> list = new Stack<T>();
-    T obj;
-    MyStack(T obj){
-        this.obj=obj;
-    }
+    final Stack<T> list = new Stack<T>();
     public void push(T obj){
-        list.add(obj);
+        list.push(obj);
     }
     public void pop( ){
-        list.remove(list.size()-1);
+        list.pop();
     }
     public T peek(){
-        return list.get(list.size()-1);
+        return list.peek();
     }
     public void display(){
         System.out.print("My Stack : ");
@@ -28,7 +24,7 @@ class MyStack<T>{
 
 public class StackUsingGenerics {
     public static void main(String[] args) {
-        MyStack<Integer> myStack = new MyStack<Integer>(10);
+        MyStack<Integer> myStack = new MyStack<Integer>();
         myStack.push(1);
         myStack.push(2);
         myStack.push(3);
