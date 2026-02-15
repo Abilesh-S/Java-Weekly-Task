@@ -1,6 +1,8 @@
-package com.kovanlabs.intern.week.task.enumday9;
+package com.kovanlabs.intern.week.task.day15nio;
 
-abstract class Characther {
+import java.io.Serializable;
+
+abstract class Characther implements Serializable {
     protected int health;
     protected int strength;
     Characther(int health, int strength) {
@@ -10,6 +12,9 @@ abstract class Characther {
     abstract void attack(Characther opponent);
     public boolean isAlive() {
         return health > 0;
+    }
+    public String toString() {
+        return "Health: " + health + ", Strength: " + strength;
     }
 }
 
