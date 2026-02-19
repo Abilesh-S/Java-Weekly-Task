@@ -25,11 +25,9 @@ public class LoadandSaveState {
             throw new RuntimeException(e);
         }
     }
-    public static GameState battleRound(Characther player1, Characther player2 , Characther player3){
+    public static void battleRound(Characther player1, Characther player2 , Characther player3){
         player1.attack(player2);
         player2.attack(player3);
         player3.attack(player3);
-        GameState rounds = new GameState(player1, player2, player3);
-        return rounds;
     }
 }

@@ -1,8 +1,10 @@
 package com.kovanlabs.intern.week.task.day15nio;
 
 import java.io.Serializable;
+import java.util.Random;
 
 abstract class Characther implements Serializable {
+    Random r = new Random();
     protected int health;
     protected int strength;
     Characther(int health, int strength) {
@@ -16,15 +18,17 @@ abstract class Characther implements Serializable {
     public String toString() {
         return "Health: " + health + ", Strength: " + strength;
     }
+
 }
 
 class Warrior extends Characther {
+
     Warrior() {
         super(120, 15); // High health, medium damage
     }
     @Override
     void attack(Characther opponent) {
-        int damage = strength + (int) (Math.random() * 10);
+        int damage = strength + r.nextInt(10);
         opponent.health -= damage;
         System.out.println("Warrior strikes for " + damage);
     }
@@ -37,7 +41,7 @@ class Mage extends Characther {
     }
     @Override
     void attack(Characther opponent) {
-        int damage = strength + (int) (Math.random() * 20);
+        int damage = strength + r.nextInt(20);
         opponent.health -= damage;
         System.out.println("Mage casts spell for " + damage);
     }
@@ -53,7 +57,7 @@ class Rogue extends Characther {
             System.out.println("Rogue dodged the attack!");
             return;
         }
-        int damage = strength + (int) (Math.random() * 12);
+        int damage = strength + r.nextInt(12);
         opponent.health -= damage;
         System.out.println("Rogue attacks for " + damage);
     }
