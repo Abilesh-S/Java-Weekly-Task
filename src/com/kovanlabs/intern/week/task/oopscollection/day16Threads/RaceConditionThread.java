@@ -2,7 +2,7 @@ package com.kovanlabs.intern.week.task.oopscollection.day16Threads;
 
 
 class CounterVariable extends Thread {
-    static int counter = 0;
+    volatile static int counter = 0;
     static synchronized void counterOperation(){
         counter++;
     }
