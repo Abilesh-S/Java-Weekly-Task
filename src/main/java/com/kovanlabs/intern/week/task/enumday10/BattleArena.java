@@ -1,4 +1,4 @@
-package com.kovanlabs.intern.week.task.enumday9;
+package com.kovanlabs.intern.week.task.enumday10;
 
 abstract class Characther {
     protected int health;
