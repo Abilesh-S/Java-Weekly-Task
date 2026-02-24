@@ -25,10 +25,9 @@ class Warrior extends Characther {
     }
 }
 
-
 class Mage extends Characther {
     Mage() {
-        super(80, 25);
+        super(80, 25); // Low health, high damage
     }
     @Override
     void attack(Characther opponent) {
