@@ -3,6 +3,8 @@ out/
 !**/src/main/**/out/
 !**/src/test/**/out/
 .kotlin
+target
+SpringMVC/.smarttomcat
 
 ### Eclipse ###
 .apt_generated
