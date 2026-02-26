@@ -3,6 +3,8 @@ package com.kovanlabs.intern.week.task.oopscollection.day17Executors;
 import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;
 import java.util.concurrent.ThreadPoolExecutor;
+import java.util.concurrent.locks.Lock;
+import java.util.concurrent.locks.ReentrantLock;
 
 class Task implements Runnable {
     static int a = 1;
@@ -13,7 +15,7 @@ class Task implements Runnable {
 
     @Override
     public  void run(){
-        synchronized (task){
+        synchronized (task) {
             try {
                 System.out.println("Task is running and running thread name " + Thread.currentThread().getName() + " value : " + a);
                 a++;

@@ -58,27 +58,13 @@ public class CalculatorUsingEnum {
         System.out.println("Enter operation to be performed: ");
         operationSymbol = input.next().charAt(0);
         switch(operationSymbol){
-            case '+':
-                System.out.println(num1+" "+Operation.ADD.getOperationSymbol()+" "+num2+" = " + Operation.ADD.apply(num1 , num2));
-                break;
-            case '-':
-                System.out.println(num1+" "+Operation.SUB.getOperationSymbol()+" "+num2+" = " + Operation.SUB.apply(num1 , num2));
-                break;
-            case '*':
-                System.out.println(num1+" "+Operation.MUL.getOperationSymbol()+" "+num2+" = " + Operation.MUL.apply(num1 , num2));
-                break;
-            case '/':
-                System.out.println(num1+" "+Operation.DIV.getOperationSymbol()+" "+num2+" = " + Operation.DIV.apply(num1 , num2));
-                break;
-            case '%':
-                System.out.println(num1+" "+Operation.MOD.getOperationSymbol()+" "+num2+" = " + Operation.MOD.apply(num1 , num2));
-                break;
-            case 'P' :
-                System.out.println(num1+" "+Operation.POW.getOperationSymbol()+" "+num2+" = " + Operation.POW.apply(num1 , num2));
-                break;
-            default:
-                System.out.println("Invalid Operation");
-
+            case '+' -> System.out.println(num1+" "+Operation.ADD.getOperationSymbol()+" "+num2+" = " + Operation.ADD.apply(num1 , num2));
+            case '-' -> System.out.println(num1+" "+Operation.SUB.getOperationSymbol()+" "+num2+" = " + Operation.SUB.apply(num1 , num2));
+            case '*'->  System.out.println(num1+" "+Operation.MUL.getOperationSymbol()+" "+num2+" = " + Operation.MUL.apply(num1 , num2));
+            case '/'->  System.out.println(num1+" "+Operation.DIV.getOperationSymbol()+" "+num2+" = " + Operation.DIV.apply(num1 , num2));
+            case '%'->  System.out.println(num1+" "+Operation.MOD.getOperationSymbol()+" "+num2+" = " + Operation.MOD.apply(num1 , num2));
+            case 'P'->  System.out.println(num1+" "+Operation.POW.getOperationSymbol()+" "+num2+" = " + Operation.POW.apply(num1 , num2));
+            default ->  System.out.println("Invalid Operation");
         }
 
     }

@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/Java-Weekly-Task.iml" filepath="$PROJECT_DIR$/Java-Weekly-Task.iml" />
+      <module fileurl="file://$PROJECT_DIR$/java-weekly-task.iml" filepath="$PROJECT_DIR$/java-weekly-task.iml" />
     </modules>
   </component>
 </project>

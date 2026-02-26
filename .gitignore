@@ -5,7 +5,7 @@ out/
 .kotlin
 *.class
 *.lst
-src/com/kovanlabs/intern/week/task/oopscollection/topicspractice
+src/main/java/com/kovanlabs/intern/week/task/oopscollection/topicspractice
 
 ### Eclipse ###
 .apt_generated
