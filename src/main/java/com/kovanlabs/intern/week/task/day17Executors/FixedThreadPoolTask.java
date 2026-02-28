@@ -1,4 +1,4 @@
-package com.kovanlabs.intern.week.task.oopscollection.day17Executors;
+package com.kovanlabs.intern.week.task.day17Executors;
 
 import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;
