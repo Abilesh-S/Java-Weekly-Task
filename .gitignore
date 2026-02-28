@@ -6,6 +6,7 @@ out/
 *.class
 *.lst
 src/main/java/com/kovanlabs/intern/week/task/oopscollection/topicspractice
+.idea
 
 ### Eclipse ###
 .apt_generated
