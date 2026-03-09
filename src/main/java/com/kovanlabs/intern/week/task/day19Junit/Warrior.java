@@ -21,6 +21,10 @@ public class Warrior extends Characther {
     void attack(Characther opponent) {
         int damage = strength + (int) (Math.random() * 10);
         opponent.health -= damage;
+        if(opponent.health < 0){
+            opponent.health = 0 ;
+            return;
+        }
         System.out.println("Warrior strikes for " + damage);
     }
 }
