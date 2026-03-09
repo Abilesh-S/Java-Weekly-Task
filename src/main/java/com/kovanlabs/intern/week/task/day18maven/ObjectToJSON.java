@@ -1,4 +1,4 @@
-package main.java.com.kovanlabs.intern.week.task.day18maven;
+package com.kovanlabs.intern.week.task.day18maven;
 
 import com.google.gson.Gson;
 

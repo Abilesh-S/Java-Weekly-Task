@@ -1,8 +1,8 @@
-package com.kovanlabs.intern.week.task.oopscollection.day16Threads;
+package com.kovanlabs.intern.week.task.day16Threads;
 
 
 class CounterVariable extends Thread {
-    volatile static int counter = 0;
+    static int counter = 0;
     static synchronized void counterOperation(){
         counter++;
     }
@@ -10,7 +10,7 @@ class CounterVariable extends Thread {
 
 public class RaceConditionThread {
     public static void main(String[] args) throws InterruptedException {
-        CounterVariable counterClass = new CounterVariable();
+        CounterVariable counter = new CounterVariable();
         CounterVariable t1 = new CounterVariable(){ @Override public void run(){for(int i = 0; i < 1000; i++){counterOperation();}}};
         CounterVariable t2 = new CounterVariable(){ @Override public void run(){for(int i = 0; i < 1000; i++){counterOperation();}}};
         CounterVariable t3 = new CounterVariable(){ @Override public void run(){for(int i = 0; i < 1000; i++){counterOperation();}}};
@@ -43,7 +43,7 @@ public class RaceConditionThread {
         t8.join();
         t9.join();
         t10.join();
-        System.out.println(counterClass.counter);
+        System.out.println(counter.counter);
 
         System.out.println("Main Thread Executed");
     }

@@ -1,25 +1,24 @@
 package com.kovanlabs.intern.week.task.day20jdbc;
 
-import javax.swing.plaf.nimbus.State;
 import java.sql.*;
 import java.util.Scanner;
 
 public class ConnectionToLocalDB {
-    private static String url = "jdbc:mysql://localhost:3306/hs";
-    private static String dbUserName = "root";
-    private static String dbUserPassword = "root";
+    private String url = "jdbc:mysql://localhost:3306/hs";
+    private String dbUserName = "root";
+    private String dbUserPassword = "root";
 
     private void displayUserInList(){
         try {
             Connection db = DriverManager.getConnection(url , dbUserName , dbUserPassword);
             System.out.println("Enter Table Name ");
-            String tableName = new Scanner(System.in).next();
-            String query = "SELECT * FROM "+tableName+";";
+            String tableName = new Scanner(System.in).nextLine();
+            String query = "SELECT * FROM team;";
             Statement st = db.createStatement();
             ResultSet executeQuery = st.executeQuery(query);
             System.out.println("User List");
             while(executeQuery.next()){
-                System.out.println("User Name : "+executeQuery.getString("team_mem")+"\nAge : "+executeQuery.getInt("age")+"\nAcceptance : "+executeQuery.getString("accepted"));
+                System.out.println("User Name : "+executeQuery.getString("team_mem")+"\nAge : "+executeQuery.getInt("age")+"\nAcceptance : "+executeQuery.getString("accepted")+"\n");
                 Thread.sleep(1000);
             }
 
@@ -34,7 +33,7 @@ public class ConnectionToLocalDB {
         try{
             Connection db = DriverManager.getConnection(url , dbUserName , dbUserPassword);
             System.out.println("Enter Table Name to be Created");
-            String tableName = new Scanner(System.in).next();
+            String tableName = new Scanner(System.in).nextLine();
             DatabaseMetaData dbStruct = db.getMetaData();
             ResultSet resultData = dbStruct.getTables(null , null , tableName , new String[]{"TABLE"});
             if (!resultData.next()) {
@@ -64,7 +63,6 @@ public class ConnectionToLocalDB {
             insertStatement.setInt(2, age);
             System.out.println("Rows Updated : "+insertStatement.executeUpdate());
             db.close();
-            input.close();
         }
         catch (SQLException e){
             e.printStackTrace();
