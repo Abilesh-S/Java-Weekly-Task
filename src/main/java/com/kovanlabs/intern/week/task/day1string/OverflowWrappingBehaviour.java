@@ -1,6 +1,6 @@
 //In the below we saw that how does after it overflow after 127 it wraps around its minimum value so it avoid exception
 
-package com.kovanlabs.intern.week.task.stringday1;
+package com.kovanlabs.intern.week.task.day1string;
 public class OverflowWrappingBehaviour {
     public void byteOverflow() {
         byte a = 118;

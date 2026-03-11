@@ -1,4 +1,4 @@
-package com.kovanlabs.intern.week.task.recursiveDay4;
+package com.kovanlabs.intern.week.task.day4recursive;
 
 public class StringPalindrome {
 

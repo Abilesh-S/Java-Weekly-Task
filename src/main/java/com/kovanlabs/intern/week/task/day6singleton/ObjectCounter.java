@@ -1,4 +1,4 @@
-package com.kovanlabs.intern.week.task.singletonday6;
+package com.kovanlabs.intern.week.task.day6singleton;
 
 public class ObjectCounter {
     static int counter = 0;

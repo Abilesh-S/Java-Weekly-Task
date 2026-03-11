@@ -1,4 +1,4 @@
-package com.kovanlabs.intern.week.task.stringday1;
+package com.kovanlabs.intern.week.task.day1string;
 
 public class StringComparison {
     public void comparisonAndHashCode(){

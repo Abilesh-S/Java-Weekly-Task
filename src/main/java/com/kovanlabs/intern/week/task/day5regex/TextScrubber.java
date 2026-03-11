@@ -1,7 +1,4 @@
-package com.kovanlabs.intern.week.task.regexDay5;
-
-import java.util.regex.Matcher;
-import java.util.regex.Pattern;
+package com.kovanlabs.intern.week.task.day5regex;
 
 public class TextScrubber {
 

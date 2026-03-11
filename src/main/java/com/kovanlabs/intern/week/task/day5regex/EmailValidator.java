@@ -1,6 +1,5 @@
-package com.kovanlabs.intern.week.task.regexDay5;
+package com.kovanlabs.intern.week.task.day5regex;
 
-import java.util.Scanner;
 import java.util.regex.Pattern;
 
 public class EmailValidator {

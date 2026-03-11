@@ -1,4 +1,4 @@
-package com.kovanlabs.intern.week.task.regexDay5;
+package com.kovanlabs.intern.week.task.day5regex;
 
 public class Enigma {
     private static int key = 8;
@@ -22,10 +22,10 @@ public class Enigma {
     }
 
     public static void main(String[] args) {
-        String s = "ABILESH ROCKSTAR";
+        String msg = "ABILESH ROCKSTAR";
         Enigma e = new Enigma();
 
-        String encryptMsg = e.encrypt(s , key);
+        String encryptMsg = e.encrypt(msg , key);
         System.out.println(encryptMsg);
         String decryptMsg = e.decrypt(encryptMsg , key);
         System.out.println(decryptMsg);
