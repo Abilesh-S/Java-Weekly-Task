@@ -31,7 +31,6 @@ public class ClientSocketA {
         while (!msg.equalsIgnoreCase("over")) {
 
             try {
-
                 msg = inputForMsg.nextLine();
                 output.writeUTF(msg);
 

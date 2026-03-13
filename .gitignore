@@ -5,6 +5,7 @@ out/
 .kotlin
 .class
 target/
+SpringMVC/.smarttomcat/
 
 ### Eclipse ###
 .apt_generated
