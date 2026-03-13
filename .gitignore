@@ -4,7 +4,9 @@ out/
 !**/src/test/**/out/
 .kotlin
 *.class
+target/
 *.xml
+SpringMVC/.smarttomcat/
 
 ### Eclipse ###
 .apt_generated
