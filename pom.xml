@@ -9,10 +9,13 @@
     <groupId>com.kovanlabs.intern</groupId>
     <artifactId>java-weekly-task</artifactId>
     <version>1.0-SNAPSHOT</version>
-    <packaging>jar</packaging>
+    <packaging>pom</packaging>
 
     <name>Java Weekly Task</name>
     <description>Threading, Executors, OOP and practice programs</description>
+    <modules>
+        <module>SpringMVC</module>
+    </modules>
 
     <!-- Java Version -->
     <properties>
