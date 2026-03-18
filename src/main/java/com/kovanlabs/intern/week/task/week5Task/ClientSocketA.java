@@ -15,7 +15,6 @@ public class ClientSocketA {
             while (true) {
                 String replymsg = input.readUTF();
                 System.out.println(replymsg);
-
             }
 
         } catch (IOException e) {
