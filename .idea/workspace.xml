@@ -5,11 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="bfdf32e3-5813-4b03-a877-308da07fd366" name="Changes" comment="Day 7 Task Completed">
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Java-Weekly-Task.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/kovanlabs/intern/week/task/day19Junit/Warrior.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/kovanlabs/intern/week/task/day19Junit/Warrior.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/kovanlabs/intern/week/task/day19Junit/DivisionMethodTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/kovanlabs/intern/week/task/day19Junit/DivisionMethodTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -19,15 +16,12 @@
   <component name="CoverageOptionsProvider">
     <option name="myAddOrReplace" value="1" />
   </component>
-  <component name="EmbeddingIndexingInfo">
-    <option name="cachedIndexableFilesCount" value="58" />
-  </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="JUnit4 Test Class" />
-        <option value="Class" />
         <option value="JUnit5 Test Class" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -65,146 +59,144 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Application.AbstractClassPractice.executor": "Run",
-    "Application.AppConfig.executor": "Run",
-    "Application.AppConfigSingleton.executor": "Run",
-    "Application.AutoCloseableDemoOverriding.executor": "Run",
-    "Application.BankTransaction.executor": "Run",
-    "Application.BattleArena.executor": "Run",
-    "Application.BillPughSingleton.executor": "Run",
-    "Application.ByteStream.executor": "Run",
-    "Application.CalculatorUsingEnum.executor": "Run",
-    "Application.CallableFactorialCalculation.executor": "Run",
-    "Application.Car.executor": "Run",
-    "Application.CharactherStream.executor": "Run",
-    "Application.ClassesandObjects.executor": "Run",
-    "Application.Computer.executor": "Run",
-    "Application.ConnectionToLocalDB.executor": "Run",
-    "Application.CopyConstructor.executor": "Run",
-    "Application.CoreSystem.executor": "Run",
-    "Application.CovariantDemo.executor": "Run",
-    "Application.DBConnection.executor": "Run",
-    "Application.DateAndTime.executor": "Run",
-    "Application.DeliveryEnum.executor": "Run",
-    "Application.DiamondPattern.executor": "Run",
-    "Application.DirectoryWalker.executor": "Run",
-    "Application.EmailValidator.executor": "Run",
-    "Application.EmployeeFiltering.executor": "Run",
-    "Application.EmployeeManagementSystem.executor": "Run",
-    "Application.EmployeesFiltering.executor": "Run",
-    "Application.EncapsulationPractice.executor": "Run",
-    "Application.Enigma.executor": "Run",
-    "Application.Enum.executor": "Run",
-    "Application.EnumSingleton.executor": "Run",
-    "Application.ExceptionPractice.executor": "Run",
-    "Application.ExecutorServiceMethod.executor": "Run",
-    "Application.FibonacciSeries.executor": "Run",
-    "Application.FindingPrimeNumber.executor": "Run",
-    "Application.FixedThreadPoolTask.executor": "Run",
-    "Application.FunctionInterfaceDemos.executor": "Run",
-    "Application.FunctionalInterface.executor": "Run",
-    "Application.FunctionalInterfaceDemo.executor": "Run",
-    "Application.ImmutableClass.executor": "Run",
-    "Application.InstanceControlFlow.executor": "Run",
-    "Application.IntegerSummaryStatisticsTask.executor": "Run",
-    "Application.LabelinJava.executor": "Run",
-    "Application.ListIteratorDemo.executor": "Run",
-    "Application.ListSumWildCards.executor": "Run",
-    "Application.LogFiile.executor": "Run",
-    "Application.LogFile.executor": "Run",
-    "Application.LogFileAnalyzer.executor": "Run",
-    "Application.Main.executor": "Run",
-    "Application.MarkerInterfaceTypes.executor": "Run",
-    "Application.MatrixMultiplication.executor": "Run",
-    "Application.ModernSwitch.executor": "Run",
-    "Application.MultiThreadedBank.executor": "Run",
-    "Application.NewInputOutputDemo.executor": "Run",
-    "Application.ObjectCounter.executor": "Run",
-    "Application.ObjectSerialization.executor": "Run",
-    "Application.ObjectSerializationGame.executor": "Run",
-    "Application.ObjectToJSON.executor": "Run",
-    "Application.OverflowWrappingBehaviour.executor": "Run",
-    "Application.OverridingEqualMethod.executor": "Run",
-    "Application.PassByValue.executor": "Run",
-    "Application.PassByValueandReference.executor": "Run",
-    "Application.PaymentGatewaySystem.executor": "Run",
-    "Application.PerformanceTest.executor": "Run",
-    "Application.PredicateInterface.executor": "Run",
-    "Application.PredicateInterfaceDemo.executor": "Run",
-    "Application.RaceConditionThread.executor": "Run",
-    "Application.RandomNumberGuess.executor": "Run",
-    "Application.RegularExpression.executor": "Run",
-    "Application.RethrowingCustomException.executor": "Run",
-    "Application.ScheduldedExecuitorServicePractice.executor": "Run",
-    "Application.ShapeFactory.executor": "Run",
-    "Application.SingletonPractice.executor": "Run",
-    "Application.SmartPhone.executor": "Run",
-    "Application.SpiralMatrix.executor": "Run",
-    "Application.StackOverflowClass.executor": "Run",
-    "Application.StackUsingGenerics.executor": "Run",
-    "Application.StaticMethodPractice.executor": "Run",
-    "Application.StreamClassDemo.executor": "Run",
-    "Application.StreamsDemo.executor": "Run",
-    "Application.StreamsMethodsDemo.executor": "Run",
-    "Application.StringComparison.executor": "Run",
-    "Application.StringPalindrome.executor": "Run",
-    "Application.TextScrubber.executor": "Run",
-    "Application.ThreadSafeSingleton.SingletonPractice.executor": "Run",
-    "Application.VariableArguments.executor": "Run",
-    "Application.WrapperClassDemo.executor": "Run",
-    "Application.com.kovanlabs.intern.week.task.oopscollection.day17Executors.CallableFactorialCalculation.executor": "Run",
-    "Application.com.kovanlabs.intern.week.task.pattern.FindingPrimeNumber.executor": "Run",
-    "Application.com.kovanlabs.intern.week.task.topicspractice.VariableArguments.executor": "Run",
-    "Downloaded.Files.Path.Enabled": "false",
-    "JUnit.DivisionByZeroTest.executor": "Run",
-    "JUnit.DivisionMethodTest.divideByZeroShouldThrowException.executor": "Run",
-    "JUnit.DivisionMethodTest.divisionWithNegativeNumbers.executor": "Run",
-    "JUnit.DivisionMethodTest.executor": "Run",
-    "JUnit.WarriorTest.executor": "Run",
-    "JUnit.WarriorTest.healthShouldNotGoBelowZero.executor": "Run",
-    "JUnit.WarriorTest.warriorShouldStartAlive.executor": "Run",
-    "Maven.Java-Weekly-Task [clean].executor": "Run",
-    "Maven.Java-Weekly-Task [compile].executor": "Run",
-    "Maven.Java-Weekly-Task [install].executor": "Run",
-    "Maven.Java-Weekly-Task [test].executor": "Run",
-    "Maven.java-weekly-task [clean].executor": "Run",
-    "Maven.java-weekly-task [install].executor": "Run",
-    "Maven.java-weekly-task [package].executor": "Run",
-    "Maven.java-weekly-task [site].executor": "Run",
-    "Maven.java-weekly-task [validate].executor": "Run",
-    "ModuleVcsDetector.initialDetectionPerformed": "true",
-    "Repository.Attach.Annotations": "false",
-    "Repository.Attach.JavaDocs": "false",
-    "Repository.Attach.Sources": "false",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "SONARLINT_PRECOMMIT_ANALYSIS": "true",
-    "TestNG.DivisionMethodTest.divideByZeroShouldThrowException.executor": "Run",
-    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
-    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4": "",
-    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
-    "create.test.in.the.same.root": "true",
-    "git-widget-placeholder": "week4",
-    "ignore.virus.scanning.warn.message": "true",
-    "kotlin-language-version-configured": "true",
-    "last_directory_selection": "C:/Users/abile/IdeaProjects/Java-Weekly-Task/src/test/java/com/kovanlabs/intern/week/task/day19Junit",
-    "last_opened_file_path": "C:/Users/abile/IdeaProjects/Java-Weekly-Task",
-    "onboarding.tips.debug.path": "C:/Users/abile/IdeaProjects/Java-Weekly-Task/src/Main.java",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "reference.settings.project.maven.repository.indices"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.AbstractClassPractice.executor&quot;: &quot;Run&quot;,
+    &quot;Application.AppConfig.executor&quot;: &quot;Run&quot;,
+    &quot;Application.AppConfigSingleton.executor&quot;: &quot;Run&quot;,
+    &quot;Application.AutoCloseableDemoOverriding.executor&quot;: &quot;Run&quot;,
+    &quot;Application.BankTransaction.executor&quot;: &quot;Run&quot;,
+    &quot;Application.BattleArena.executor&quot;: &quot;Run&quot;,
+    &quot;Application.BillPughSingleton.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ByteStream.executor&quot;: &quot;Run&quot;,
+    &quot;Application.CalculatorUsingEnum.executor&quot;: &quot;Run&quot;,
+    &quot;Application.CallableFactorialCalculation.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Car.executor&quot;: &quot;Run&quot;,
+    &quot;Application.CharactherStream.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ClassesandObjects.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Computer.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ConnectionToLocalDB.executor&quot;: &quot;Run&quot;,
+    &quot;Application.CopyConstructor.executor&quot;: &quot;Run&quot;,
+    &quot;Application.CoreSystem.executor&quot;: &quot;Run&quot;,
+    &quot;Application.CovariantDemo.executor&quot;: &quot;Run&quot;,
+    &quot;Application.DBConnection.executor&quot;: &quot;Run&quot;,
+    &quot;Application.DateAndTime.executor&quot;: &quot;Run&quot;,
+    &quot;Application.DeliveryEnum.executor&quot;: &quot;Run&quot;,
+    &quot;Application.DiamondPattern.executor&quot;: &quot;Run&quot;,
+    &quot;Application.DirectoryWalker.executor&quot;: &quot;Run&quot;,
+    &quot;Application.EmailValidator.executor&quot;: &quot;Run&quot;,
+    &quot;Application.EmployeeFiltering.executor&quot;: &quot;Run&quot;,
+    &quot;Application.EmployeeManagementSystem.executor&quot;: &quot;Run&quot;,
+    &quot;Application.EmployeesFiltering.executor&quot;: &quot;Run&quot;,
+    &quot;Application.EncapsulationPractice.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Enigma.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Enum.executor&quot;: &quot;Run&quot;,
+    &quot;Application.EnumSingleton.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ExceptionPractice.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ExecutorServiceMethod.executor&quot;: &quot;Run&quot;,
+    &quot;Application.FibonacciSeries.executor&quot;: &quot;Run&quot;,
+    &quot;Application.FindingPrimeNumber.executor&quot;: &quot;Run&quot;,
+    &quot;Application.FixedThreadPoolTask.executor&quot;: &quot;Run&quot;,
+    &quot;Application.FunctionInterfaceDemos.executor&quot;: &quot;Run&quot;,
+    &quot;Application.FunctionalInterface.executor&quot;: &quot;Run&quot;,
+    &quot;Application.FunctionalInterfaceDemo.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ImmutableClass.executor&quot;: &quot;Run&quot;,
+    &quot;Application.InstanceControlFlow.executor&quot;: &quot;Run&quot;,
+    &quot;Application.IntegerSummaryStatisticsTask.executor&quot;: &quot;Run&quot;,
+    &quot;Application.LabelinJava.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ListIteratorDemo.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ListSumWildCards.executor&quot;: &quot;Run&quot;,
+    &quot;Application.LogFiile.executor&quot;: &quot;Run&quot;,
+    &quot;Application.LogFile.executor&quot;: &quot;Run&quot;,
+    &quot;Application.LogFileAnalyzer.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Main.executor&quot;: &quot;Run&quot;,
+    &quot;Application.MarkerInterfaceTypes.executor&quot;: &quot;Run&quot;,
+    &quot;Application.MatrixMultiplication.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ModernSwitch.executor&quot;: &quot;Run&quot;,
+    &quot;Application.MultiThreadedBank.executor&quot;: &quot;Run&quot;,
+    &quot;Application.NewInputOutputDemo.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ObjectCounter.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ObjectSerialization.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ObjectSerializationGame.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ObjectToJSON.executor&quot;: &quot;Run&quot;,
+    &quot;Application.OverflowWrappingBehaviour.executor&quot;: &quot;Run&quot;,
+    &quot;Application.OverridingEqualMethod.executor&quot;: &quot;Run&quot;,
+    &quot;Application.PassByValue.executor&quot;: &quot;Run&quot;,
+    &quot;Application.PassByValueandReference.executor&quot;: &quot;Run&quot;,
+    &quot;Application.PaymentGatewaySystem.executor&quot;: &quot;Run&quot;,
+    &quot;Application.PerformanceTest.executor&quot;: &quot;Run&quot;,
+    &quot;Application.PredicateInterface.executor&quot;: &quot;Run&quot;,
+    &quot;Application.PredicateInterfaceDemo.executor&quot;: &quot;Run&quot;,
+    &quot;Application.RaceConditionThread.executor&quot;: &quot;Run&quot;,
+    &quot;Application.RandomNumberGuess.executor&quot;: &quot;Run&quot;,
+    &quot;Application.RegularExpression.executor&quot;: &quot;Run&quot;,
+    &quot;Application.RethrowingCustomException.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ScheduldedExecuitorServicePractice.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ShapeFactory.executor&quot;: &quot;Run&quot;,
+    &quot;Application.SingletonPractice.executor&quot;: &quot;Run&quot;,
+    &quot;Application.SmartPhone.executor&quot;: &quot;Run&quot;,
+    &quot;Application.SpiralMatrix.executor&quot;: &quot;Run&quot;,
+    &quot;Application.StackOverflowClass.executor&quot;: &quot;Run&quot;,
+    &quot;Application.StackUsingGenerics.executor&quot;: &quot;Run&quot;,
+    &quot;Application.StaticMethodPractice.executor&quot;: &quot;Run&quot;,
+    &quot;Application.StreamClassDemo.executor&quot;: &quot;Run&quot;,
+    &quot;Application.StreamsDemo.executor&quot;: &quot;Run&quot;,
+    &quot;Application.StreamsMethodsDemo.executor&quot;: &quot;Run&quot;,
+    &quot;Application.StringComparison.executor&quot;: &quot;Run&quot;,
+    &quot;Application.StringPalindrome.executor&quot;: &quot;Run&quot;,
+    &quot;Application.TextScrubber.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ThreadSafeSingleton.SingletonPractice.executor&quot;: &quot;Run&quot;,
+    &quot;Application.VariableArguments.executor&quot;: &quot;Run&quot;,
+    &quot;Application.WrapperClassDemo.executor&quot;: &quot;Run&quot;,
+    &quot;Application.com.kovanlabs.intern.week.task.oopscollection.day17Executors.CallableFactorialCalculation.executor&quot;: &quot;Run&quot;,
+    &quot;Application.com.kovanlabs.intern.week.task.pattern.FindingPrimeNumber.executor&quot;: &quot;Run&quot;,
+    &quot;Application.com.kovanlabs.intern.week.task.topicspractice.VariableArguments.executor&quot;: &quot;Run&quot;,
+    &quot;Downloaded.Files.Path.Enabled&quot;: &quot;false&quot;,
+    &quot;JUnit.DivisionByZeroTest.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.DivisionMethodTest.divideByZeroShouldThrowException.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.DivisionMethodTest.executor&quot;: &quot;Coverage&quot;,
+    &quot;JUnit.WarriorTest.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.WarriorTest.healthShouldNotGoBelowZero.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.WarriorTest.warriorShouldStartAlive.executor&quot;: &quot;Run&quot;,
+    &quot;Maven.Java-Weekly-Task [clean].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.Java-Weekly-Task [compile].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.Java-Weekly-Task [install].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.Java-Weekly-Task [test].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.java-weekly-task [clean].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.java-weekly-task [install].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.java-weekly-task [package].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.java-weekly-task [validate].executor&quot;: &quot;Run&quot;,
+    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;Repository.Attach.Annotations&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.JavaDocs&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.Sources&quot;: &quot;false&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;SONARLINT_PRECOMMIT_ANALYSIS&quot;: &quot;true&quot;,
+    &quot;TestNG.DivisionMethodTest.divideByZeroShouldThrowException.executor&quot;: &quot;Run&quot;,
+    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary&quot;: &quot;JUnit5&quot;,
+    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4&quot;: &quot;&quot;,
+    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5&quot;: &quot;&quot;,
+    &quot;create.test.in.the.same.root&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;week4&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_directory_selection&quot;: &quot;C:/Users/abile/IdeaProjects/Java-Weekly-Task/src/test/java/com/kovanlabs/intern/week/task/day19Junit&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/abile/IdeaProjects/Java-Weekly-Task&quot;,
+    &quot;onboarding.tips.debug.path&quot;: &quot;C:/Users/abile/IdeaProjects/Java-Weekly-Task/src/Main.java&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;reference.settings.project.maven.repository.indices&quot;
   },
-  "keyToStringList": {
-    "com.intellij.ide.scratch.ScratchImplUtil$2/New Scratch File": [
-      "XML"
+  &quot;keyToStringList&quot;: {
+    &quot;com.intellij.ide.scratch.ScratchImplUtil$2/New Scratch File&quot;: [
+      &quot;XML&quot;
     ]
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\abile\IdeaProjects\Java-Weekly-Task" />
@@ -223,13 +215,26 @@
       <recent name="com.kovanlabs.intern.week.task.oopscollection.day19Testing" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.MultiThreadedBank">
-    <configuration name="MultiThreadedBank" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.kovanlabs.intern.week.task.day20jdbc.MultiThreadedBank" />
+  <component name="RunManager" selected="Application.LogFile">
+    <configuration name="ConnectionToLocalDB" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.kovanlabs.intern.week.task.day20jdbc.ConnectionToLocalDB" />
       <module name="java-weekly-task" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.kovanlabs.intern.week.task.day20jdbc.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LogFile" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.kovanlabs.intern.week.task.day15nio.LogFile" />
+      <module name="java-weekly-task" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.kovanlabs.intern.week.task.day15nio.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -252,38 +257,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DivisionMethodTest.divideByZeroShouldThrowException" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="java-weekly-task" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.kovanlabs.intern.week.task.day19Junit.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.kovanlabs.intern.week.task.day19Junit" />
-      <option name="MAIN_CLASS_NAME" value="com.kovanlabs.intern.week.task.day19Junit.DivisionMethodTest" />
-      <option name="METHOD_NAME" value="divideByZeroShouldThrowException" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="DivisionMethodTest.divisionWithNegativeNumbers" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="java-weekly-task" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.kovanlabs.intern.week.task.day19Junit.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.kovanlabs.intern.week.task.day19Junit" />
-      <option name="MAIN_CLASS_NAME" value="com.kovanlabs.intern.week.task.day19Junit.DivisionMethodTest" />
-      <option name="METHOD_NAME" value="divisionWithNegativeNumbers" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="WarriorTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="java-weekly-task" />
       <extension name="coverage">
@@ -299,20 +272,36 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="WarriorTest.healthShouldNotGoBelowZero" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="java-weekly-task" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.kovanlabs.intern.week.task.day19Junit.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.kovanlabs.intern.week.task.day19Junit" />
+      <option name="MAIN_CLASS_NAME" value="com.kovanlabs.intern.week.task.day19Junit.WarriorTest" />
+      <option name="METHOD_NAME" value="healthShouldNotGoBelowZero" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <list>
-      <item itemvalue="Application.MultiThreadedBank" />
-      <item itemvalue="JUnit.DivisionMethodTest.divideByZeroShouldThrowException" />
-      <item itemvalue="JUnit.DivisionMethodTest.divisionWithNegativeNumbers" />
+      <item itemvalue="Application.LogFile" />
+      <item itemvalue="Application.ConnectionToLocalDB" />
       <item itemvalue="JUnit.WarriorTest" />
+      <item itemvalue="JUnit.WarriorTest.healthShouldNotGoBelowZero" />
       <item itemvalue="JUnit.DivisionMethodTest" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.MultiThreadedBank" />
-        <item itemvalue="JUnit.DivisionMethodTest.divideByZeroShouldThrowException" />
+        <item itemvalue="Application.LogFile" />
         <item itemvalue="JUnit.WarriorTest" />
         <item itemvalue="JUnit.DivisionMethodTest" />
-        <item itemvalue="JUnit.DivisionMethodTest.divisionWithNegativeNumbers" />
+        <item itemvalue="JUnit.WarriorTest.healthShouldNotGoBelowZero" />
+        <item itemvalue="Application.ConnectionToLocalDB" />
       </list>
     </recent_temporary>
   </component>
