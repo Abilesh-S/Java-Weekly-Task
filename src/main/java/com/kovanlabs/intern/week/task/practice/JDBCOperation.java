@@ -29,10 +29,15 @@ public class JDBCOperation {
     }
 
     public void insertdetails(DataSource db ,String coffeName , int supplierID , double price , int sales , int total){
-        String query = "INSERT INTO COFFEES VALUES('"+coffeName+"',"+supplierID+","+price+","+sales+","+total+")";
+        String query = "INSERT INTO COFFEES VALUES(? , ? , ? , ? , ?);";
         try(Connection connection = db.getConnection()){
-            Statement statement = connection.createStatement();
-            System.out.println("Rows Affected"+statement.executeUpdate(query));
+            PreparedStatement statement = connection.prepareStatement(query);
+            statement.setString(1 , coffeName);
+            statement.setInt(2, supplierID);
+            statement.setDouble(3 , price);
+            statement.setInt(4 , sales);
+            statement.setInt(5 , total);
+            System.out.println("Rows Affected"+statement.executeUpdate());
         }
         catch(SQLException e){
             e.printStackTrace();
@@ -61,7 +66,8 @@ public class JDBCOperation {
         JDBCOperation jdbc = new JDBCOperation();
         DataSource ds = jdbc.createDataSource();
         jdbc.displayTable(ds);
-
+        jdbc.insertdetails(ds,"Espresso", 101, 150.5, 200, 300);
+        jdbc.displayTable(ds);
 
 
 
