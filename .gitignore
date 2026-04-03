@@ -3,6 +3,10 @@ out/
 !**/src/main/**/out/
 !**/src/test/**/out/
 .kotlin
+target
+src/com/kovanlabs/intern/week/task/oopscollection/topicspractice/
+SpringMVC/.smarttomcat/
+
 
 ### Eclipse ###
 .apt_generated
